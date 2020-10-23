@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+	/* xs */
+  .footer{
+    background-image: linear-gradient(45deg, #1d00dc, #5e3eff);
+    text-align: center;
+    padding: 20px 10px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    &__title{
+      color: #ffffff;
+      font-size: 15px;
+    }
+    &__title img{
+      margin-left: 10px;
+    }
+  }
+}
+
+@media all and (min-width: 576px){
+	/* sm */
+}
+@media all and (min-width: 768px){
+	/* md */
+}
+@media all and (min-width: 992px){
+	/* lg */
+    .footer{
+    padding: 25px 10px;
+  }
+
+}
+@media all and (min-width: 1200px){
+	/* xl */
+}

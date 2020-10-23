@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+	/* xs */
+  .container-pagination .MuiPagination-ul{
+    margin-top: 5rem;
+    justify-content: center;
+  }
+  .container-pagination .MuiPaginationItem-textPrimary.Mui-selected{
+    background-image: linear-gradient(45deg, #FF1D34, #EC3709);
+  }
+  .container-pagination .MuiPaginationItem-textPrimary:hover {
+    background-image: linear-gradient(45deg, #FF1D34, #EC3709);
+  }
+}
+
+@media all and (min-width: 576px){
+	/* sm */
+}
+@media all and (min-width: 768px){
+	/* md */
+}
+@media all and (min-width: 992px){
+	/* lg */
+
+
+}
+@media all and (min-width: 1200px){
+	/* xl */
+}

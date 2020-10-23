@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+	/* xs */
+  .actor{
+    &__img{
+      width: 100%;
+      max-width: 3rem;
+      height: 3rem;
+      margin: 0 auto;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 15rem;
+      display: block;
+      border: 2px solid #ffffff !important;
+    }
+    &__name{
+      font-size: 11px;
+      text-align: center;
+      margin: 9px 4px;
+    }
+  }
+}
+@media all and (min-width: 576px){
+  /* sm */
+  .actor{
+    &__img{
+      max-width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+}
+@media all and (min-width: 768px){
+	/* md */
+}
+@media all and (min-width: 992px){
+	/* lg */
+  .actor{
+    &__img{
+      max-width: 4.5rem;
+      height: 4.5rem;
+    }
+  }
+}
+@media all and (min-width: 1200px){
+	/* xl */
+}

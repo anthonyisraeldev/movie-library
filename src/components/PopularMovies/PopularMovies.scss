@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+  .container-popular-movies{
+    margin-bottom: 4rem;
+  }
+  .slide-popular-movie{
+    background: #5f9ea0;
+    margin: 10px;
+    padding: 1rem;
+    position: relative;
+    text-align: left;
+    outline: none !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 20;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 12rem;
+
+    &::after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.75);
+      z-index: -1;
+    }
+
+    &__title{
+      padding-top: 1rem;
+      font-size: 13px;
+    }
+    &__date{
+      font-size: 13px;
+    }
+    &__puntuation{
+      font-size: 13px;
+
+      & > span{
+        letter-spacing: 2px;
+        font-weight: 300;
+      }
+    }
+
+    &__btn{
+      text-decoration: none !important;
+      color: #ffffff !important;
+      // background-color: #ffffff;
+      background-image: linear-gradient(45deg, #1d00dc, #5e3eff);
+      font-weight: 700;
+      font-size: 12px;
+      padding: 8px 18px;
+      border-radius: 5rem;
+    }
+    &__btn:hover{
+      background-image: linear-gradient(45deg, #1500a0, #160083);
+    }
+    &__box-btn{
+      position: absolute;
+      bottom: 1.56rem;
+      right: 2rem;
+      text-align: right;
+    }
+    &__star-icon{
+      display: inline-block !important;
+      width: 18px;
+      vertical-align: bottom;
+      margin: 0 5px 0 10px;
+    }
+  }
+  *{
+    outline: none !important;
+  }
+  .slider-popular-movies .slick-prev:before,
+  .slider-popular-movies .slick-next:before{
+    font-size: 15px;
+  }
+  .slider-popular-movies .slick-prev{
+    left: -13px;
+    z-index: 300;
+  }
+  .slider-popular-movies .slick-next{
+    right: -13px;
+    z-index: 300;
+  }
+}
+@media all and (min-width: 576px){
+	/* sm */
+
+}
+@media all and (min-width: 768px){
+	/* md */
+
+}
+@media all and (min-width: 992px){
+	/* lg */
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+  .container-popular-movies{
+    margin-bottom: 8rem;
+  }
+}
+@media all and (min-width: 1366px){
+  /* xl */
+  .slider-popular-movies .slick-prev:before,
+  .slider-popular-movies .slick-next:before{
+    font-size: 25px;
+  }
+}

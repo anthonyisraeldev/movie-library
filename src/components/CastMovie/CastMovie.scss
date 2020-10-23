@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+	/* xs */
+  .cast-movie{
+    margin-bottom: 2rem;
+
+    &__main-title{
+      font-size: 22px;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media all and (min-width: 576px){
+  /* sm */
+
+}
+@media all and (min-width: 768px){
+	/* md */
+}
+@media all and (min-width: 992px){
+	/* lg */
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+  .slider-cast-movie .slick-prev:before,
+  .slider-cast-movie .slick-next:before{
+    font-size: 25px;
+  }
+}
